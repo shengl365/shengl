@@ -42,8 +42,8 @@ void myTimer0Handler(void) {
 
 For getting spots, cars are blocked if there is no enough spot(resource)
 ```
-	while(spots[sp]!=0) {
-		EA = 0;
-		sp=(sp+1)%2;
-		EA = 1;
+while(spots[sp]!=0) {
+	EA = 0;
+	sp=(sp+1)%2;
+	EA = 1;
 ```
